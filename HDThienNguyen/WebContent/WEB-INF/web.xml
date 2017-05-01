@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>HDThienNguyen</display-name>
+  <welcome-file-list>
+    <welcome-file>DanhsachHDServlet</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>DanhsachHDServlet</display-name>
+    <servlet-name>DanhsachHDServlet</servlet-name>
+    <servlet-class>controller.DanhsachHDServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DanhsachHDServlet</servlet-name>
+    <url-pattern>/DanhsachHDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DangkiServlet</display-name>
+    <servlet-name>DangkiServlet</servlet-name>
+    <servlet-class>controller.DangkiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DangkiServlet</servlet-name>
+    <url-pattern>/DangkiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ThemmoiHDServlet</display-name>
+    <servlet-name>ThemmoiHDServlet</servlet-name>
+    <servlet-class>controller.ThemmoiHDServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ThemmoiHDServlet</servlet-name>
+    <url-pattern>/ThemmoiHDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DanhgiaHDServlet</display-name>
+    <servlet-name>DanhgiaHDServlet</servlet-name>
+    <servlet-class>controller.DanhgiaHDServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DanhgiaHDServlet</servlet-name>
+    <url-pattern>/DanhgiaHDServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
